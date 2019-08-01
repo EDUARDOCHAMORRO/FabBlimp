@@ -9,31 +9,73 @@ R"(
   <meta name="description" content="FAB BLIMP RC CONTROL FAB LAB CONFERENCE 15">
   <meta name="author" content="Eduardo Chamorro Martin -eduardochamorromartin@gmail.com">
 
-  <title>Freelancer - Start Bootstrap Theme</title>
+  <title>Fab Blimp-FABLAB-BCN</title>
 
-  <!-- Custom fonts for this theme -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Theme CSS -->
-  <link href="https://eduardochamorro.github.io/FabBlimp/css/freelancer.css" rel="stylesheet">
-
-  
    <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script> function makeAjaxCall(url){$.ajax({"url": url})}</script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-  
-  <!-- Plugin JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  
-  <!-- Custom scripts for this template -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/5.1.2/js/freelancer.min.js"></script>
+  <style>
+   body {
+     background-color: #ffc107;
+   }
+   h1  {
+     color: #000000;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 55px;
+      font-family: Raleway, "Open Sans", sans-serif;
+      font-weight: 700;
+
+   }
+   h2  {
+     color: #ffffff;
+      text-align: center;
+      text-decoration: underline;
+      font-size: 35px;
+      font-family: Raleway, "Open Sans", sans-serif;
+      font-weight: 700;
+   }
+   p  {
+     color: #000000;
+      text-align: center;
+      font-size: 25px;
+      font-family: Raleway, "Open Sans", sans-serif;
+      font-weight: 700;
+   }
+     img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+   .column {
+     float: left;
+     width: 33.33%;
+   }
+
+   /* Clear floats after the columns */
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+   .button {
+        background-color: #ffffff;
+        border: 5px solid #ffc107; /* Green border */
+        border-radius: 12px;
+        color: #ffc107; /* White text */
+        padding: 10px 24px; /* Some padding */
+
+        font-size: 35px;
+        font-family: Raleway, "Open Sans", sans-serif;
+        font-weight: 700;
+ }
+
+  </style>
 
 
-
-  
 
 </head>
 
@@ -44,8 +86,8 @@ R"(
     <div class="container d-flex align-items-center flex-column">
 
       <!-- Masthead Avatar Image -->
-     
-      <img class="masthead-avatar mb-5" src="https://i.imgur.com/SDeN29V.gif" alt=""  vspace="50">
+
+      <img class="masthead-avatar mb-5" src="https://i.imgur.com/SDeN29V.gif" width="100" height="100" alt=""  vspace="50">
 
       <!-- Masthead Heading -->
       <h1 class="masthead-heading text-uppercase mb-0">Fab Blimp</h1>
@@ -74,7 +116,7 @@ R"(
             <i class="fas fa-star"></i>
           </div>
           <div class="divider-custom-line"></div>
-        </div>    
+        </div>
     </div>
 
 
@@ -82,32 +124,29 @@ R"(
  <div class="row">
 
         <!-- ButtonLEFT -->
-        <div class="col-4 col-xs-4 col-sm-4 col-xs-6 col-md-4">
-            <button id="left" type="button" class="btn btn-default" style="height: 100%; width: 100%" onmousedown='makeAjaxCall("left")' onmouseup='makeAjaxCall("steerStop")' ontouchstart='makeAjaxCall("left")' ontouchend='makeAjaxCall("steerStop")'>LEFT<img class="img-fluid" src = "https://i.imgur.com/Lg21P1X.png" alt=""></button>
-
+        <div class="column">
+            <button id="left" type="button" class="button" style="height: 100%; width: 100%" onmousedown='makeAjaxCall("left")' onmouseup='makeAjaxCall("steerStop")' ontouchstart='makeAjaxCall("left")' ontouchend='makeAjaxCall("steerStop")'>LEFT</button>
         </div>
 
+
         <!-- ButtonFRONT -->
-        <div class=" col-4 col-xs-4 col-sm-4  col-xs-6 col-md-4">
-          
-           <button id="back" type="button" class="btn btn-default" style="height: 100%; width: 100%" onmousedown='makeAjaxCall("back")' onmouseup='makeAjaxCall("steerStop")' ontouchstart='makeAjaxCall("back")' ontouchend='makeAjaxCall("driveStop")'>FRONT<img class="img-fluid" src="https://i.imgur.com/Pe6Tp34.png" alt=""></button>
+
+        <div class="column">
+           <button id="back" type="button" class="button" style="height: 100%; width: 100%" onmousedown='makeAjaxCall("back")' onmouseup='makeAjaxCall("steerStop")' ontouchstart='makeAjaxCall("back")' ontouchend='makeAjaxCall("steerStop")'>FRONT</button>
         </div>
 
         <!-- ButtonRIGHT -->
-        <div class="col-4 col-xs-4 col-sm-4  col-xs-6 col-md-4">
-           <button id="right" type="button" class="btn btn-default" style="height: 100%; width: 100%" onmousedown='makeAjaxCall("right")' onmouseup='makeAjaxCall("steerStop")' ontouchstart='makeAjaxCall("right")' ontouchend='makeAjaxCall("steerStop")'>RIGHT<img class="img-fluid" src="https://i.imgur.com/sY4K3JQ.png" alt=""></button>
+        <div class="column">
+           <button id="right" type="button" class="button" style="height: 100%; width: 100%" onmousedown='makeAjaxCall("right")' onmouseup='makeAjaxCall("steerStop")' ontouchstart='makeAjaxCall("right")' ontouchend='makeAjaxCall("steerStop")'>RIGHT</button>
         </div>
 
-        <!-- HIDDEN -->
-        <div class="col-4 col-xs-4 col-sm-4  col-xs-6 col-md-4">
-            <img class="img-fluid" src="" alt="">
-        </div>
+
         <!-- ButtonUP -->
-        <div class="col-4 col-xs-4 col-sm-4  col-xs-6 col-md-4">
-           <button id="drive" type="button" class="btn btn-default" style="height: 100%; width: 100%" onmousedown='makeAjaxCall("up")' onmouseup='makeAjaxCall("driveStop")' ontouchstart='makeAjaxCall("up")' ontouchend='makeAjaxCall("driveStop")'>LIFT<img class="img-fluid" src="https://i.imgur.com/ifLdnsw.png"alt=""></button>
-        </div>
+
+           <button id="drive" type="button" class="button" style="height: 100%; width: 100%" onmousedown='makeAjaxCall("up")' onmouseup='makeAjaxCall("driveStop")' ontouchstart='makeAjaxCall("up")' ontouchend='makeAjaxCall("driveStop")'>LIFT</button>
+
  </div>
- </div>   
+ </div>
 
 
 
@@ -118,8 +157,8 @@ R"(
       <small>Developped by Eduardo Chamorro Martin and Santi Fuentemilla</small>
     </div>
   </section>
-  
-  
+
+
   <!--<script>
      document.addEventListener('keydown', function(event) {
         if(event.keyCode == 37) {
@@ -154,7 +193,7 @@ R"(
 
 
 
-   
+
 </body>
 
 </html>

@@ -33,6 +33,7 @@
 
 ## PCB production files
 
+![Electronic Componenets](https://eduardochamorro.github.io/FabBlimp/ComponentsZeppelin.png)
 ![Interior Cut PCB](https://eduardochamorro.github.io/FabBlimp/IncutZeppelin.png)
 ![Exterior Cut PCB](https://eduardochamorro.github.io/FabBlimp/OutcutZeppelin.png)
 
@@ -40,8 +41,14 @@
 
 ![](https://eduardochamorro.github.io/FabBlimp/control.jpg)
 
+There is two version of the code.
+
+1- WIFI SERVER : the blimp connects to an already existing wifi hotspot and uses that network to increase the control range and improved webpage control.(longer range and more visual)
+
+2- WIFI HOTSPOT : for not stable or fast enough wifi hotspots, the blimp creates his own hotspot and get controlled by publishing an control webpage.(faster control,shorter range and less visual)
 
 
 ## Copyright and License
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Copyright3-2019 FabLab BCN - IaaC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Developped by Eduardo Chamorro and Santi Fuentemilla.
