@@ -33,7 +33,7 @@
 
 ## PCB production files
 
-![Electronic Componenets](https://eduardochamorro.github.io/FabBlimp/ComponentsZeppelin.png)
+![Electronic Components](https://eduardochamorro.github.io/FabBlimp/ComponentsZeppelin.png)
 ![Interior Cut PCB](https://eduardochamorro.github.io/FabBlimp/IncutZeppelin.png)
 ![Exterior Cut PCB](https://eduardochamorro.github.io/FabBlimp/OutcutZeppelin.png)
 
