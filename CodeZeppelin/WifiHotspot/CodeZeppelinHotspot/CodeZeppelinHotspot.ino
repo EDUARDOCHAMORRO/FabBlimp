@@ -32,13 +32,16 @@ int TurningPower = 1023;
 // ----------------
 // Set your WiFi SSID and Password here
 // ----------------
-const char* ssid = "FABBLIMP";
+const char* ssid = "FABLIMPLEO";
 const char* password = "12345678";
 
 
 
 /* Put IP Address details */
 IPAddress local_ip(192,168,1,1);
+
+
+
 IPAddress gateway(192,168,1,1);
 IPAddress subnet(255,255,255,0);
 
