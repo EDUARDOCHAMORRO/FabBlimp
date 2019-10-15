@@ -1,4 +1,4 @@
-# [Fab Blimp]
+# [Fab Blimp] Workshop
 
  Workshop developped for Fab15 Egypt Conference by Eduardo Chamorro and Santi Fuentemilla
 
