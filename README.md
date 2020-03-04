@@ -5,7 +5,9 @@
  Workshop of producing and fabricating a phone controlled blimp. Pcb fabricated with a Roland SRM20, blimp balloon produced by sealing a plastics bags with a CO2 lasercutter and frame made out of cardboard cutted also with the lasercutter.
  Control of the blimp via an smartphone accessing the ip address of the ESP12 via an internal wifi access point(wifi connection required)
 
-![](https://eduardochamorro.github.io/FabBlimp/fabblimp.jpg)
+![](https://eduardochamorro.github.io/FabBlimp/img/fabblimp.jpg)
+
+[PDF DOWNLOAD GUIDE ON HOW TO ASSEMBLE IT](https://eduardochamorro.github.io/FabBlimp/fabblimp.pdf)
 
 ## Hardware Requirements
 
@@ -33,13 +35,24 @@
 
 ## PCB production files
 
-![Electronic Components](https://eduardochamorro.github.io/FabBlimp/ComponentsZeppelin.png)
-![Interior Cut PCB](https://eduardochamorro.github.io/FabBlimp/IncutZeppelin.png)
-![Exterior Cut PCB](https://eduardochamorro.github.io/FabBlimp/OutcutZeppelin.png)
+![Electronic Components](https://eduardochamorro.github.io/FabBlimp/img/ComponentsZeppelin.png)
+
+**FILES WITH MOTOR HOLDER**
+![Interior Cut PCB](https://eduardochamorro.github.io/FabBlimp/img/IncutZeppelin.png)
+![Exterior Cut PCB](https://eduardochamorro.github.io/FabBlimp/img/OutcutZeppelin.png)
+
+**FILES WITHOUT MOTOR HOLDER**
+![Interior Cut PCB](https://eduardochamorro.github.io/FabBlimp/img/bliboard_trace.png)
+![Exterior Cut PCB](https://eduardochamorro.github.io/FabBlimp/img/bliboard_cut.png)
+
+## Cut out file for a lasercutter motor holder
+
+[Download Laser Cut file dxf](https://eduardochamorro.github.io/FabBlimp/dock.dxf)
+
 
 ## Control app via browser
 
-![](https://eduardochamorro.github.io/FabBlimp/control.jpg)
+![](https://eduardochamorro.github.io/FabBlimp/img/control.jpg)
 
 There is two version of the code.
 
@@ -51,4 +64,5 @@ There is two version of the code.
 ## Copyright and License
 
 Copyright3-2019 FabLab BCN - IaaC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
-Developped by Eduardo Chamorro and Santi Fuentemilla.
+Developped by Eduardo Chamorro and Santi Fuentemilla. July 2019
+Updated by Miriam Choi February 2020
